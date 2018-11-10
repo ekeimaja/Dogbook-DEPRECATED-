@@ -39,4 +39,6 @@ testem.log
 Thumbs.db
 
 # Test files
+/e2e
 *.spec.ts
+.vscode/tasks.json
