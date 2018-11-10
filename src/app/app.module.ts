@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 import { ContentComponent } from './content/content.component';
 import { ListItemComponent } from './list-item/list-item.component';
+import { ApiService } from './api.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { ListItemComponent } from './list-item/list-item.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    ApiService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
