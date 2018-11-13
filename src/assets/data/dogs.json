@@ -1,0 +1,8 @@
+[
+  { "id": "1", "name": "Fifi", "breed": "Shitweiler", "sex": "f" },
+  { "id": "2", "name": "Spot", "breed": "Cortzu", "sex": "m" },
+  { "id": "3", "name": "Milo", "breed": "Moppie", "sex": "m" },
+  { "id": "4", "name": "Samson", "breed": "Salunois", "sex": "m" },
+  { "id": "5", "name": "Hunter", "breed": "Bulkul", "sex": "m" },
+  { "id": "6", "name": "Sadie", "breed": "Popsi", "sex": "f" }
+]

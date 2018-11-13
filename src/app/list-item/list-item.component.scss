@@ -2,8 +2,13 @@ div {
     border: 1px solid;
     padding: 10px;
     min-width: 200px;
+    background-color: chocolate;
 }
 div img {
     float: right;
     clear: both;
+}
+
+div span {
+    padding-left: 5px;
 }

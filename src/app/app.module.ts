@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 import { ContentComponent } from './content/content.component';
 import { ListItemComponent } from './list-item/list-item.component';
+import { DogsService } from './dogs.service';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,10 @@ import { ListItemComponent } from './list-item/list-item.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [DogsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

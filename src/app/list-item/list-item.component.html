@@ -1,5 +1,5 @@
-<div>
+<div *ngFor="let dog of dogs">
     <img src="https://via.placeholder.com/60">
-    <strong>name</strong>
-    <p>breed</p>
+    <strong>{{dog.name}}</strong><span *ngIf="dog.sex == 'm'" class="fas fa-mars"></span><span *ngIf="dog.sex == 'f'" class="fas fa-venus"></span>
+    <p>{{dog.breed}}</p>
 </div>
