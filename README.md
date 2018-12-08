@@ -1,7 +1,7 @@
 # Dogbook
 My training project to migrate Django 2 and Angular 7. This is a Facebook-like portal for dog owners.
 
-At the moment in November 2018 I've made some testing with Django, e.g. file uploading.
+At the moment in December 2018 I've made base layout with Angular, which can been found from its own branch and also some testing with Django, e.g. file uploading system.
 
 DEVLOG
 -
