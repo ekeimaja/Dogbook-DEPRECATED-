@@ -12,3 +12,5 @@ DEVLOG
 **10.11.2018:** Created the first version of layout, also moved it to own branch.
 
 **13.11.2018:** Added getting data functionality with HTTP fetching with service. Currently the mock data comes from JSON file.
+
+**08.12.2018:** I try to create workable file uploading system with Django on this weekend and also add it here. The problem has been that most of the tutorials for making it are complete **SHIT**. 
